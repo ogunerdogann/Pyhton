@@ -1,0 +1,3 @@
+Crtl+Alt+Down direction arrow = multiple lines
+Ctrl+K+C = Makes selected lines comment lines
+Crtl+K+U = Makes selected comment lines normal lines
