@@ -64,4 +64,4 @@ print(list1)              # prints '[7, 6, 5, 4, 1, 0]'
 list3[0] = 11
 list3[2] = 23
 list3[4] = 20
-print(list3)              # prints ''
+print(list3)              # prints '[11, 1, 23, 5, 20, 7]'
