@@ -1,4 +1,5 @@
-# Lets make a program that calculates average class notes
+# Lets make a program that calculates average class note
+# This is an example for if statements, data casting, value input and nested if statements
 visa = int(input("Please enter your visa: "))
 print(type(visa))
 if type(visa) != int:
@@ -12,7 +13,6 @@ if type(final) != int:
 else:
     print("Final saved!")
 
-average=0
 if final >= 50:
     average = ((visa*0.4)+(final*0.6))
     print(f"Visa: {visa} \nFinal: {final} \nAverage: {average}")
