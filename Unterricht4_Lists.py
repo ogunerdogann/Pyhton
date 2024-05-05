@@ -60,3 +60,8 @@ print(list1)              # prints '[7, 6, 5, 4, 1, 0]'
 list3 = sorted(list1)     # sorts our list but not assigned to list1 variable (siralamayi yapar ancak list1 degiskenine atama yapmaz!)
 print(list3)              # prints '[0, 1, 4, 5, 6, 7]'
 print(list1)              # prints '[7, 6, 5, 4, 1, 0]'
+
+list3[0] = 11
+list3[2] = 23
+list3[4] = 20
+print(list3)              # prints ''
