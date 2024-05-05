@@ -18,6 +18,9 @@ insert, remove etc. But in tuples we are not allowed to
 make changes.
 So, Tuples are the lists, that we can not make changes on it.
 In other word, lists are mutable but tuples are immutable.
+
+Lists and Tuples allows duplicate elements, sets will not allow duplicate elements.
+Dictionaries doesn't allow duplicate keys.
 '''
 
 set1 = {"Black","White","Red","Purple","Green","Blue"}
@@ -80,3 +83,14 @@ print(type(emptyset2))      # prints <class 'dict'> !!!!
 # !!! So, if we want to create an empty set, we can only do that like in line 75.
 # Line 76 creates an empty dictionary!!!
 
+python = set("PYTHON")
+print(python)              # prints {'H', 'O', 'P', 'N', 'T', 'Y'}
+
+python = set([1,2,3,4,5])  
+print(python)              # prints {1, 2, 3, 4, 5}
+
+python = set((6,7,8,9))
+print(python)              # prints {8, 9, 6, 7}
+
+# If we give some String, list or tuple in a set() method,
+# it splits all the elements and makes a set.
