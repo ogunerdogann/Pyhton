@@ -21,7 +21,7 @@ print(person["name"])       # prints aytug
 print(person["age"])        # prints 18
 
 print(person.get("surname")) # prints erdogan
-print(person.get("id"))
+print(person.get("id"))      # prints None
 
 person["gender"] = "M"  # we added a new key:value pair here.
 print(person)
@@ -77,5 +77,5 @@ hobbies ['Nature', 'Music', 'Books']
 print(person.items())
 # prints dict_items([('name', 'aytug'), ('surname', 'erdogan'), ('age', 18), ('hobbies', ['Nature', 'Music', 'Books'])])
 
-
+# !!! Dictionaries does not allow duplicate keys!!!
 

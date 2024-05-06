@@ -22,15 +22,3 @@ if final >= 50:
         print("Your average is under 50. Sadly you failed the exam!")
 else:
     print("Your final note is under 50! You failed the exam!")
-
-# is operator
-'''
-is operator checks whether(DE-ob) two variables point to the same object in memory
-but == operator compares the value or equality of two objects.
-'''
-
-a = [1,2,3]
-b = a
-c = a[:]
-
-print(c)
