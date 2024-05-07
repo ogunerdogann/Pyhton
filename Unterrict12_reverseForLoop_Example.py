@@ -7,8 +7,8 @@ number = int(input("Please enter a number: "))
 factory = number
 if number > 0:
     print(number, end="")
-    for i in reversed(range(number)):
-        if i != 0:
+    for i in reversed(range(number)):               # !!! if we want to make a reverse for loop, we can use reversed(range()) !!! 
+        if i != 0:                                  # There are also another methodes to make a reverse for loop !!!
             print(" * "+ str(i), end="")            # !!! if we want to print on same line, we use (end="") !!!
             factory *= i
         else:
