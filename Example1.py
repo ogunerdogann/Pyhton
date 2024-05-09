@@ -55,9 +55,48 @@ TR-Kullanicidan ardarda alinan 5 sayinin en kücügünü ve en büyügünü ekra
 #print(f"Max Number: {max_number}, Min Number: {min_number}") 
 
 #--------------- 2. Way ----------------------
-numbers = []
-for i in range(5):
-    number = int(input("Please enter a number: "))
-    numbers.append(number)
-print(numbers)
-print(f"Max Number: {max(numbers)}, Min Number: {min(numbers)}")
+#numbers = []
+#for i in range(5):
+#    number = int(input("Please enter a number: "))
+#    numbers.append(number)
+#print(numbers)
+#print(f"Max Number: {max(numbers)}, Min Number: {min(numbers)}")
+
+'''
+Write a program that shows which letter is used and how many times in a text received from the user.
+TR-Kullanicidan alinan bir metinde hangi harfin kac defa kullanildigini gösteren bir program yaziniz
+'''
+#text = input("Please enter a text: ")
+#dictionary = dict()
+#for letter in text:
+#    if letter in dictionary:
+#        dictionary[letter] += 1
+#    else:
+#        dictionary[letter] =1
+#for letter,number in dictionary.items():
+#    print(letter,number)
+
+'''
+Write a program that capitalizes the letters a in a text received from the user.
+TR-Kullanicidan alinan bir metinde a harflerini büyük yapan bir program yaziniz
+'''
+#--------------- 1. Way ----------------
+#text = input("Please enter a text: ")
+#text_list = list()
+#for i in text:
+#    if i == "a":
+#        text_list.append(i.capitalize()) 
+#    else:
+#        text_list.append(i)
+#string_text = "".join(text_list)
+#print(string_text)
+
+#--------------- 2. Way -----------------
+text = input("Please enter a text: ")
+text2 = ""
+for i in text:
+    if i == "a":
+        text2 += "A"
+    else:
+        text2 += i
+print(text2)

@@ -25,10 +25,30 @@ TR-Ekrandan okunan bir sayinin rakamlari toplamini veren nir program yaziniz.
 #print(f"Result: {sum_digits}")
 
 #------------ 2. Way ----------------------
+#number = int(input("Please enter a number: "))
+#temp_number = number
+#sum_digits = 0
+#while temp_number != 0:
+#    sum_digits += temp_number % 10
+#    temp_number //= 10
+#print(f"Result: {sum_digits}")
+
+'''
+Write a program that checks whether a number received from the user is the square of any number.
+TR-Kullanicidan alinan bir sayinin herhangi bir sayini karesi olup olmadigini kontrol eden bir progeam yaziniz.
+'''
+#--------------- 1. Way ----------------------
+#number = int(input("Please enter a number: "))
+#sqrt_number = int(number**(1/2))
+#if sqrt_number**2 == number:
+#    print(f"{number} is square of {sqrt_number}!!!")
+#else:
+#    print(f"{number} is not square of any number!!!") 
+
+#--------------- 2. Way ----------------------
 number = int(input("Please enter a number: "))
-temp_number = number
-sum_digits = 0
-while temp_number != 0:
-    sum_digits += temp_number % 10
-    temp_number //= 10
-print(f"Result: {sum_digits}")
+sqrt_number = number**0.5
+if sqrt_number == int(sqrt_number):
+    print(f"{number} is square of {int(sqrt_number)}!!!")
+else:
+    print(f"{number} is not square of any number!!!")
