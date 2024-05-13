@@ -50,5 +50,5 @@ print(a)                # prints 90.0
 
 # We can also assign a function to a variable
 variable2 = discount
-variable2(100,90)
+variable2(100,90)       # prints 90.0
 

@@ -94,13 +94,13 @@ TR- 100 basamakli ilk fibonacci sayisini ekrana yazdirin.
 #print(len(str(max(list_fibo))))
 
 #---------------2. way -------------------------
-list_fibo = [1,1]
-index = 1
-while True:
-    list_fibo.append(list_fibo[index]+list_fibo[index-1])
-    max_fibo = max(list_fibo)
-    index += 1
-    if len(str(max_fibo)) == 100:
-        print(max_fibo)
-        print(len(str(max_fibo)))
-        break
+#list_fibo = [1,1]
+#index = 1
+#while True:
+#    list_fibo.append(list_fibo[index]+list_fibo[index-1])
+#    max_fibo = max(list_fibo)
+#    index += 1
+#    if len(str(max_fibo)) == 100:
+#        print(max_fibo)
+#        print(len(str(max_fibo)))
+#        break
