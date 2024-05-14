@@ -23,15 +23,24 @@
 #result = sqrt(36)
 #print(result)           # prints 6.0
 
-# Lets import our module
+# Lets import and use our module
 
 #import My_Module1
 #result = My_Module1.area_circle(2)
 #print(result)            # prints 12.56
 
-from My_Module1 import perimeter_circle
-result = perimeter_circle(3)
-print(result)             # prints 
+#from My_Module1 import perimeter_circle
+#result = perimeter_circle(3)
+#print(result)             # prints 18.84
+
+# We can also rename our module
+
+import My_Module1 as mm1
+result = mm1.area_circle(4)
+print(result)
+
+
+
 
 
 
