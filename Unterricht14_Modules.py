@@ -35,10 +35,12 @@
 
 # We can also rename our module
 
-import My_Module1 as mm1
-result = mm1.area_circle(4)
-print(result)
+#import My_Module1 as mm1
+#result = mm1.area_circle(4)
+#print(result)               # prints 50.24
 
+import My_Module1
+print(dir(My_Module1))
 
 
 
