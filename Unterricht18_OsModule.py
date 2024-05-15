@@ -38,7 +38,35 @@ os.makedirs("Deneme1\Deneme2\Deneme3")
 # Create folders: Deneme3 in Deneme2 in Deneme1
 
 os.rmdir("Deneme")
-os.rmdir("Deneme1")
+# rmdir() removes a folder (rmdir --> remove directory)
+# os.rmdir("Deneme1") GIVES ERROR!! (Das Verzeichnis ist nicht leer: 'Deneme1')
+# Because Deneme1 folder is not empty!!
+os.removedirs("Deneme1\Deneme2\Deneme3")
 
+os.rename("oguen.txt","Oguen.txt")
+'''
+We wrote only the folder name, because we konow that already,
+that our current working directory. If we want to change a file name in
+another directory, we have to give absolute folder path and we can even
+change the directory of this file.
+'''
 
- 
+os.rename("Oguen.txt",r"C:\Users\ogune\Desktop\Software Testing\Oguen\oguen.txt")
+os.chdir(r"C:\Users\ogune\Desktop\Software Testing\Oguen")
+os.rename("oguen.txt",r"C:\Users\ogune\Desktop\Software Testing\oguen.txt")
+
+for folder, ordner, files in os.walk(r"C:\Users\ogune\Desktop\Software Testing\chromedriver-win64 (1)"):
+    print("Folders: ",folder)
+    print("Ordners in folder: ",ordner)
+    print("Files in ordner: ", files)
+
+print(os.path.join("Deneme1","Deneme2","Deneme3"))      # prints Deneme1\Deneme2\Deneme3
+# With this function we can change paths or move some folders
+# into another directories.
+print(os.path.join("Deneme1","\Deneme2","Deneme3"))     # prints \Deneme2\Deneme3
+
+print(os.path.isfile(r"C:\Users\ogune\Desktop\Software Testing\oguen.txt"))  # Is this a file?  - prints True
+print(os.path.isfile(r"C:\Users\ogune\Desktop\Software Testing"))            # prints False
+print(os.path.isdir(r"C:\Users\ogune\Desktop\Software Testing"))             # Is thisa directory? - prints True
+
+print(os.path.splitext(r"C:\Users\ogune\Desktop\Software Testing\oguen.txt"))
