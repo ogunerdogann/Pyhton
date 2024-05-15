@@ -48,5 +48,4 @@ for i in range(1000000):
     if number_dice == 6 and number_dice2 == 6:
         six_six += 1
 print(f"Probability of to come 6-6 on two dice is {six_six/1000000}")
-
-print(1/36)
+# Matematically the probability is 1/36 and the results are too close.

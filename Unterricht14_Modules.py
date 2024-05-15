@@ -39,6 +39,8 @@
 #result = mm1.area_circle(4)
 #print(result)               # prints 50.24
 
+# With 'dir()' function, we can list all defined function names in a module.
+
 import My_Module1
 print(dir(My_Module1))
 
