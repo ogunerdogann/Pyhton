@@ -58,8 +58,12 @@ then we can see how we can printdate in another formats.
 
 # sleep() function
 print("Program starts")
-time.sleep(3)
+time.sleep(3)           
 print("Program ends")
+'''
+With sleep() function we can hold our code for seconds that we want.
+In this case 3 seconds.
+'''
 
 
 
