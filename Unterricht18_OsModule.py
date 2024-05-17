@@ -70,3 +70,5 @@ print(os.path.isfile(r"C:\Users\ogune\Desktop\Software Testing"))            # p
 print(os.path.isdir(r"C:\Users\ogune\Desktop\Software Testing"))             # Is thisa directory? - prints True
 
 print(os.path.splitext(r"C:\Users\ogune\Desktop\Software Testing\oguen.txt"))
+# prints ('C:\\Users\\ogune\\Desktop\\Software Testing\\oguen', '.txt')
+# This is a useful function, when we want to sort files.

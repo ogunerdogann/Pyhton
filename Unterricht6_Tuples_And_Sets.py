@@ -4,6 +4,7 @@
 tuple1 = ("Black","White","Red","Purple","Green","Blue")
 print(tuple1)
 # prints '('Black', 'White', 'Red', 'Purple', 'Green', 'Blue')'
+print(tuple1[0])    # prints Black
 
 print(len(tuple1))   # prints 6
 print(type(tuple1))  # prints '<class 'tuple'>'
