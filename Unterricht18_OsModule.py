@@ -2,6 +2,7 @@
 With os module, we can make some processes on folders
 '''
 import os
+from datetime import datetime
 print(os.getcwd())          # prints C:\Users\ogune\Desktop\VS Code
 print(type(os.getcwd()))    # prints <class 'str'>
 # getcwd() function shows us the current folder that we are in. (cwd --> current working directory)
@@ -72,3 +73,25 @@ print(os.path.isdir(r"C:\Users\ogune\Desktop\Software Testing"))             # I
 print(os.path.splitext(r"C:\Users\ogune\Desktop\Software Testing\oguen.txt"))
 # prints ('C:\\Users\\ogune\\Desktop\\Software Testing\\oguen', '.txt')
 # This is a useful function, when we want to sort files.
+
+# os.stat() method
+'''
+The Python method stat() of OS module performs a stat system call on the given path.
+It is used to retrieve the status of a file or file descriptor.
+TR- İşletim Sistemi modülünün (os) Python methodu stat(), verilen dosya younlda bir istatistik sistemi çağrisi gerçekleştirir.
+Bir dosyanin veya dosya tanimlayicinin durumunu almak için kullanilir.
+stat --> TR- istatistik
+retrieve --> TR- geri almak
+'''
+stat_method = os.stat(r"C:\Users\ogune\Desktop\VS Code")
+print(stat_method)
+print(type(stat_method))        # prints <class 'os.stat_result'>
+'''
+prints os.stat_result(st_mode=16895, st_ino=3096224744100607, st_dev=13712610218296871491, st_nlink=1,
+st_uid=0, st_gid=0, st_size=8192, st_atime=1716200433, st_mtime=1715997265, st_ctime=1711457461)
+
+There are a lot of parameters about the file in given path here. We can also make this result more readable with using
+datetime module.
+'''
+print(stat_method.st_birthtime) # prints 1711457461.0649006
+print(datetime.fromtimestamp(stat_method.st_birthtime).strftime("%d.%m.%Y"))
