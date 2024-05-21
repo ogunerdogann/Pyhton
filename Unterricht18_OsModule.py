@@ -90,8 +90,9 @@ print(type(stat_method))        # prints <class 'os.stat_result'>
 prints os.stat_result(st_mode=16895, st_ino=3096224744100607, st_dev=13712610218296871491, st_nlink=1,
 st_uid=0, st_gid=0, st_size=8192, st_atime=1716200433, st_mtime=1715997265, st_ctime=1711457461)
 
-There are a lot of parameters about the file in given path here. We can also make this result more readable with using
-datetime module.
+On invoking the os.stat(), it returns a stat_result object.
+This object contains various attributes that represent the status of the specified path.
+It gives us 'timestamp' imformations of a file.
 '''
 print(stat_method.st_birthtime) # prints 1711457461.0649006
-print(datetime.fromtimestamp(stat_method.st_birthtime).strftime("%d.%m.%Y"))
+print(datetime.fromtimestamp(stat_method.st_birthtime).strftime("%d.%m.%Y"))       # prints 26.03.2024
