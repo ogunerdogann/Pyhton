@@ -122,7 +122,7 @@ When we open a file in append mode, the seek pointer points to the end of the fi
 # ---------------------- binary mode --------------------
 '''
 If we want to read or write a for instance png file, we have to read or write them
-in binary mode because they are not a text!
+in binary mode ("rb" or "wb") because they are not a text!
 '''
 # 1. Way
 
@@ -136,7 +136,14 @@ in binary mode because they are not a text!
 
 # 2. Way
 
-with open("Python-logo.png","rb") as read_png:
-    with open("Python-logo2.png","wb") as write_png:
-        for content in read_png:
-            write_png.write(content)
+#with open("Python-logo.png","rb") as read_png:
+#    with open("Python-logo2.png","wb") as write_png:
+#        for content in read_png:
+#            write_png.write(content)
+
+'''
+Both using up there are the same but 1. Way is a better option
+because like we said, we can work with enormous size files.
+In such cases 1. Way is better because we don't have to read whole file.
+We can filter the file content.
+'''
