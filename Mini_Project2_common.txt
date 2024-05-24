@@ -1,0 +1,34 @@
+Name-Surname Department 1. Midterm/2. Midterm/Final
+Muster-Mustermann Pyhsics 40/50/30
+Erkan-Ogur Pyhsics 90/85/100
+Chester-Bennington Civil Engineering 50/25/90
+Hasan-Sabbah Theology 65/95/30
+Ogun-Erdogan Biomedical Engineering 35/85/100
+Tarik-Erdogan Software Engineering 65/85/75
+Hasan-Erdogan Civil Engineering 45/35/20
+Aytug-Erdogan Software Engineering 65/45/85
+Deniz-Sever Software Engineering 35/75/95
+Cengiz-Aytmatov Literature 85/95/100
+Omer-Hayyam Philosophy 95/95/95
+John-Doe Pyhsics 25/25/25
+Taylor-Swift Philosophy 15/10/5
+Chris-Motionless Theology 10/35/40
+Celal-Sengor Geology 100/100/85
+Timur-Lenk Politics 95/95/100
+Dogan-Cuceloglu Psychology 85/95/100
+Sebnem-Ferah Civil Engineering 35/25/15
+Nicola-Tesla Electrical Engineering 100/100/100
+Marie-Curie Chemistry 95/95/100
+Canan-Dagdeviren Biomedical Engineering 100/100/100
+Mabel-Matiz Dentistry 20/15/35
+Fatih-Mehmet Civil Engineering 95/100/100
+Nil-Ipek Philosophy 10/65/25
+Sherlock-Holmes Mathematics 95/85/75
+Nimet-Erdogan Electrical Engineering 95/95/100
+Harry-Potter Theology 15/35/25
+Mehmet-Koc Mechanical Engineering 65/85/75
+Kutluhan-Mahmat Biomedical Engineering 65/95/80
+Burkay-Gul Automation Engineering 25/35/95
+Sertab-Erener Theology 25/30/50
+Dilek-Turkan Psychology 30/40/35
+Alice-Merton Biology 65/85/20

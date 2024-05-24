@@ -1,0 +1,34 @@
+Name                          Surname                       Department                    Average                       Status                        
+Muster                        Mustermann                    Pyhsics                       36.0                          Failed                        
+Erkan                         Ogur                          Pyhsics                       95.0                          Passed                        
+Chester                       Bennington                    Civil Engineering              
+Hasan                         Sabbah                        Theology                      50.0                          Failed                        
+Ogun                          Erdogan                       Biomedical Engineering         
+Tarik                         Erdogan                       Software Engineering           
+Hasan                         Erdogan                       Civil Engineering              
+Aytug                         Erdogan                       Software Engineering           
+Deniz                         Sever                         Software Engineering           
+Cengiz                        Aytmatov                      Literature                    96.0                          Passed                        
+Omer                          Hayyam                        Philosophy                    95.0                          Passed                        
+John                          Doe                           Pyhsics                       25.0                          Failed                        
+Taylor                        Swift                         Philosophy                    8.0                           Failed                        
+Chris                         Motionless                    Theology                      33.0                          Failed                        
+Celal                         Sengor                        Geology                       91.0                          Passed                        
+Timur                         Lenk                          Politics                      98.0                          Passed                        
+Dogan                         Cuceloglu                     Psychology                    96.0                          Passed                        
+Sebnem                        Ferah                         Civil Engineering              
+Nicola                        Tesla                         Electrical Engineering         
+Marie                         Curie                         Chemistry                     98.0                          Passed                        
+Canan                         Dagdeviren                    Biomedical Engineering         
+Mabel                         Matiz                         Dentistry                     28.0                          Failed                        
+Fatih                         Mehmet                        Civil Engineering              
+Nil                           Ipek                          Philosophy                    30.0                          Failed                        
+Sherlock                      Holmes                        Mathematics                   81.0                          Passed                        
+Nimet                         Erdogan                       Electrical Engineering         
+Harry                         Potter                        Theology                      25.0                          Failed                        
+Mehmet                        Koc                           Mechanical Engineering         
+Kutluhan                      Mahmat                        Biomedical Engineering         
+Burkay                        Gul                           Automation Engineering         
+Sertab                        Erener                        Theology                      41.0                          Failed                        
+Dilek                         Turkan                        Psychology                    35.0                          Failed                        
+Alice                         Merton                        Biology                       42.0                          Failed                        

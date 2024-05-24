@@ -14,11 +14,12 @@
 # With block organization in Pyhton we don't need to lose a file manually.
 # If we are out of the block like in line 12, it closes the file automatically. This is the most common use. 
 
-#with open("File_Handling_Notes.txt","r") as f:
-#    content = f.readlines()
-#    print(content)          # prints the file contents in a list. '\n' means enter
-#    for line in content:
-#        print(line,end="")
+with open("File_Handling_Notes.txt","r") as f:
+    content = f.readline()
+    content = f.readlines()
+    print(content)          # prints the file contents in a list. '\n' means enter
+    for line in content:
+        print(line,end="")
          
 '''
 If we do it the print process like print(line), it would print file contents with 2 Enter!
