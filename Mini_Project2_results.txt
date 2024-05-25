@@ -1,13 +1,13 @@
 Name                          Surname                       Department                    Average                       Status                        
 Muster                        Mustermann                    Pyhsics                       36.0                          Failed                        
 Erkan                         Ogur                          Pyhsics                       95.0                          Passed                        
-Chester                       Bennington                    Civil Engineering              
+Chester                       Bennington                    Civil Engineering             69.0                          Passed                        
 Hasan                         Sabbah                        Theology                      50.0                          Failed                        
-Ogun                          Erdogan                       Biomedical Engineering         
-Tarik                         Erdogan                       Software Engineering           
-Hasan                         Erdogan                       Civil Engineering              
-Aytug                         Erdogan                       Software Engineering           
-Deniz                         Sever                         Software Engineering           
+Ogun                          Erdogan                       Biomedical Engineering        84.0                          Passed                        
+Tarik                         Erdogan                       Software Engineering          75.0                          Passed                        
+Hasan                         Erdogan                       Civil Engineering             28.0                          Failed                        
+Aytug                         Erdogan                       Software Engineering          73.0                          Passed                        
+Deniz                         Sever                         Software Engineering          79.0                          Passed                        
 Cengiz                        Aytmatov                      Literature                    96.0                          Passed                        
 Omer                          Hayyam                        Philosophy                    95.0                          Passed                        
 John                          Doe                           Pyhsics                       25.0                          Failed                        
@@ -16,19 +16,19 @@ Chris                         Motionless                    Theology            
 Celal                         Sengor                        Geology                       91.0                          Passed                        
 Timur                         Lenk                          Politics                      98.0                          Passed                        
 Dogan                         Cuceloglu                     Psychology                    96.0                          Passed                        
-Sebnem                        Ferah                         Civil Engineering              
-Nicola                        Tesla                         Electrical Engineering         
+Sebnem                        Ferah                         Civil Engineering             21.0                          Failed                        
+Nicola                        Tesla                         Electrical Engineering        100.0                         Passed                        
 Marie                         Curie                         Chemistry                     98.0                          Passed                        
-Canan                         Dagdeviren                    Biomedical Engineering         
+Canan                         Dagdeviren                    Biomedical Engineering        100.0                         Passed                        
 Mabel                         Matiz                         Dentistry                     28.0                          Failed                        
-Fatih                         Mehmet                        Civil Engineering              
+Fatih                         Mehmet                        Civil Engineering             99.0                          Passed                        
 Nil                           Ipek                          Philosophy                    30.0                          Failed                        
 Sherlock                      Holmes                        Mathematics                   81.0                          Passed                        
-Nimet                         Erdogan                       Electrical Engineering         
+Nimet                         Erdogan                       Electrical Engineering        98.0                          Passed                        
 Harry                         Potter                        Theology                      25.0                          Failed                        
-Mehmet                        Koc                           Mechanical Engineering         
-Kutluhan                      Mahmat                        Biomedical Engineering         
-Burkay                        Gul                           Automation Engineering         
+Mehmet                        Koc                           Mechanical Engineering        75.0                          Passed                        
+Kutluhan                      Mahmat                        Biomedical Engineering        80.0                          Passed                        
+Burkay                        Gul                           Automation Engineering        69.0                          Passed                        
 Sertab                        Erener                        Theology                      41.0                          Failed                        
 Dilek                         Turkan                        Psychology                    35.0                          Failed                        
 Alice                         Merton                        Biology                       42.0                          Failed                        

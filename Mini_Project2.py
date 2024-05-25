@@ -16,8 +16,12 @@ with open("Mini_Project2_common.txt","r") as read_txt:
             write_txt.write(names[0] + " " * (30-len(names[0])))
             write_txt.write(names[1] + " " * (30-len(names[1])))
             if splitted[2].startswith("Engineer"):
-                print(splitted[1] + " " + splitted[2], end= " " * (30 - (len(splitted[1]) + len(splitted[2]))))
-                write_txt.write(splitted[1] + " " + splitted[2] + " " * (30 - (len(splitted[1]) + len(splitted[2]))))
+                print(splitted[1] + " " + splitted[2], end= " " * (29 - (len(splitted[1]) + len(splitted[2]))))
+                write_txt.write(splitted[1] + " " + splitted[2] + " " * (29 - (len(splitted[1]) + len(splitted[2]))))
+                notes = splitted[3].split("/")
+                average = (((int(notes[0]) + int(notes[1]))/2) * 0.4) + (int(notes[2]) * 0.6)
+                print(str(average), end= " " * (30 - len(str(average))))
+                write_txt.write(str(average) + " " * (30 - len(str(average))))
             else:
                 print(splitted[1], end= " " * (30 - len(splitted[1])))
                 write_txt.write(splitted[1] + " " * (30 - len(splitted[1])))
@@ -25,14 +29,10 @@ with open("Mini_Project2_common.txt","r") as read_txt:
                 average = (((int(notes[0]) + int(notes[1]))/2) * 0.4) + (int(notes[2]) * 0.6)
                 print(str(average), end= " " * (30 - len(str(average))))
                 write_txt.write(str(average) + " " * (30 - len(str(average))))
-                if int(notes[2]) >= 50 and average >= 50:
-                    print("Passed", end= " " * 24)
-                    write_txt.write("Passed" + " " * 24)
-                else:
-                    print("Failed", end= " " * 24)
-                    write_txt.write("Failed" + " " * 24)
+            if int(notes[2]) >= 50 and average >= 50:
+                print("Passed", end= " " * 24)
+                write_txt.write("Passed" + " " * 24)
+            else:
+                print("Failed", end= " " * 24)
+                write_txt.write("Failed" + " " * 24)
 
-
-
-
-        
