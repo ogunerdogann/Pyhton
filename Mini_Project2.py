@@ -4,19 +4,20 @@ with open("Mini_Project2_common.txt","r") as read_txt:
     with open("Mini_Project2_results.txt","w") as write_txt:
         for i in range(0,len(titles)):
             write_txt.write(titles[i] + " " * (30 - len(titles[i])))
-        content = read_txt.readline()
+        content = read_txt.readline()       # First line is titles therefore we are passing first line here.
         content = read_txt.readlines()
         for i in content:
-            print()
-            write_txt.write("\n")
+            print()                     # Here is for enter.
+            write_txt.write("\n")       # Here is also for enter in our file.
             splitted = i.split(" ")
-            names = splitted[0].split("-")
+            names = splitted[0].split("-")      # We are taking names and surnames here.
             print(names[0], end=" " * (30-len(names[0])))
             print(names[1], end=" " * (30-len(names[1])))
             write_txt.write(names[0] + " " * (30-len(names[0])))
             write_txt.write(names[1] + " " * (30-len(names[1])))
-            if splitted[2].startswith("Engineer"):
-                print(splitted[1] + " " + splitted[2], end= " " * (29 - (len(splitted[1]) + len(splitted[2]))))
+            if splitted[2].startswith("Engineer"):      # If the department is engineering, we should consider it differently.
+                print(splitted[1] + " " + splitted[2], end= " " * (29 - (len(splitted[1]) + len(splitted[2])))) 
+                # In line 19, there is one extra space " ", because of that we should consider 29 spaces!!!
                 write_txt.write(splitted[1] + " " + splitted[2] + " " * (29 - (len(splitted[1]) + len(splitted[2]))))
                 notes = splitted[3].split("/")
                 average = (((int(notes[0]) + int(notes[1]))/2) * 0.4) + (int(notes[2]) * 0.6)
