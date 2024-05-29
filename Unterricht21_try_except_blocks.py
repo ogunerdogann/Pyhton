@@ -102,9 +102,9 @@ Just said, it doesn't matter for finally block whether there is an error or not.
 #if type(number) != int:
 #    raise TypeError("Only integers are allowed!")
 
-try:
-    x = -1
-    if x < 0:
-        raise Exception()
-except Exception:
-    print("x should be greater than 0!")
+#try:
+#    x = -1
+#    if x < 0:
+#        raise Exception()
+#except Exception:
+#    print("x should be greater than 0!")
