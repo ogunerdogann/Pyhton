@@ -1,7 +1,4 @@
-# constructor --> yapici,insaatci
-# initialize --> baslatmak
-# attribute --> özellik, nitelik
-
+#--------------------- CLASSES AND CONSTRUCTORS ------------------------
 '''
 Python is a versatile(TR- cok yönlü) programming language that supports various programming styles,
 including object-oriented programming (OOP) through the use of objects and classes.
@@ -45,13 +42,29 @@ class workers:
         self.surname = surname                 # surname of the object(self.surname) comes from the surname, which is in line 43
         self.age = age                         # age of the object(self.age) comes from the age, which is in line 43
 
-    def print_worker(self):
+    def print_worker(self):                    # We define a method here. A method is a function, which depends on classes.
         print(f"Name of Worker: {self.name} \nSurname of Worker: {self.surname} \nAge of Worker: {self.age}")
     
-worker1 = workers("Ogün", "Erdogan", 28)
+worker1 = workers("Ogün", "Erdogan", 28)            # This is how we create an object from a class
 print(worker1.name,worker1.surname, worker1.age)    # prints Ogün Erdogan 28
 
 worker2 = workers("Tarik","Erdogan",24)
 print(worker2.name,worker2.surname,worker2.age)     # prints Tarik Erdogan 24
 
-worker1.print_worker()
+worker1.print_worker()                              # This is how we call a method
+'''
+prints,
+
+Name of Worker: Ogün
+Surname of Worker: Erdogan
+Age of Worker: 28
+'''
+
+# In line 43, we can also assign default values to the parameters of constructor.
+# for example, def __init__(self, name="Unknown", surname="Erdogan", age=20)
+
+#-------------------------------- Resources -------------------------------
+# https://www.youtube.com/watch?v=7XF4lnUHzc4&list=PL3kMAPso9YQ1Ls-5uTTIWWMkJoF_vyj5J&index=26
+# https://www.w3schools.com/python/python_classes.asp
+# https://www.programiz.com/python-programming/object-oriented-programming
+# https://www.geeksforgeeks.org/constructors-in-python/
