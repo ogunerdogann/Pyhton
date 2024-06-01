@@ -1,4 +1,4 @@
-#----------------------------- INHERITANCE 1 ---------------------
+#----------------------------- INHERITANCE 1 ------------------------
 class workers:                  # This is our parent(super) class
     department = "HR"
     def __init__(self,name,surname,age,salary):

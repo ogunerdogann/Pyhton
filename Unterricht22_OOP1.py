@@ -18,7 +18,7 @@ and the behaviors with methods. A method is a function, that depend on a class.
 
 
 '''
-We can create objects froma class like this but what if we had to define 1000 or more
+We can create objects from a class like this but what if we had to define 1000 or more
 workers? Should we create 1000 objets like this? Absolutely not. That would be a lot of work for us.
 We can create objects from a class easily with the help of constructors. 
 
