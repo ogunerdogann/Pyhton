@@ -9,6 +9,7 @@ class workers:                  # This is our parent(super) class
     
     def print_worker(self):     # This is an instance method
         print(f"Name: {self.name}, Surname: {self.surname}, Age: {self.age}, Salary: {self.salary}, Department: {workers.department}")
+        
 
 worker1 = workers("Tarik","Erdogan",24,5000)    # We created an object(instance) from our parent class.
 worker2 = workers("Aytug","Erdogan",18,4500)
@@ -22,6 +23,26 @@ class programmers(workers):     # This is our child(sub-) class. It inherits fro
     def print_worker(self):     # Here we override the method in our parent class.
         print(f"Name: {self.name}, Surname: {self.surname}, Age: {self.age}, Salary: {self.salary}, Department: {programmers.department}")
 
+class managers(workers):
+    def __init__(self, name, surname, age, salary,resp_workers=None):
+        super().__init__(name, surname, age, salary)
+        if resp_workers == None:
+            self.resp_workers = []
+        else:
+            self.resp_workers = resp_workers
+
+    def resp_worker_add(self,worker):
+        if worker not in self.resp_workers:
+            self.resp_workers.append(worker)
+
+    def resp_worker_delete(self,worker):
+        if worker in self.resp_workers:
+            self.resp_workers.remove(worker)
+    
+    def resp_worker_print(self):
+        for worker in self.resp_workers:
+            worker.print_worker()
+
 worker3 = workers("Hasan","Erdogan",51,7000)        # We created an object(instance) from parent class.
 programmer1 = programmers("Ogün","Erdogan",28,6000,"Python")    # We created an object from child class.
 programmer2 = programmers("Nimet","Erdogan",46,6500,"Java")
@@ -29,8 +50,20 @@ programmer2 = programmers("Nimet","Erdogan",46,6500,"Java")
 workers.print_worker(worker1)   # We called the method from parent class.
 worker2.print_worker()          # We called the method through the object.
 worker3.print_worker()
+
 programmers.print_worker(programmer1)
 programmer2.print_worker()
+
+manager1 = managers("Ömer","Hayyam",67,8000)
+manager1.resp_worker_add(programmer1)
+manager1.resp_worker_add(worker2)
+manager1.resp_worker_add(programmer2)
+manager1.resp_worker_add(worker1)
+print("------------------------")
+manager1.resp_worker_print()
+print("------------------------")
+manager1.resp_worker_delete(worker2)
+manager1.resp_worker_print()                 # observe results!!
 
 """
 prints:
