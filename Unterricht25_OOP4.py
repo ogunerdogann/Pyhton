@@ -21,7 +21,7 @@ class programmers(workers):     # This is our child(sub-) class. It inherits fro
     department = "IT"      # Here we override a class level variable from our parent class.
 
     def print_worker(self):     # Here we override the method in our parent class.
-        print(f"Name: {self.name}, Surname: {self.surname}, Age: {self.age}, Salary: {self.salary}, Department: {programmers.department}")
+        print(f"Name: {self.name}, Surname: {self.surname}, Age: {self.age}, Salary: {self.salary}, Department: {programmers.department}, Programming Language: {self.software_languages}")
 
 class managers(workers):
     def __init__(self, name, surname, age, salary,resp_workers=None):
