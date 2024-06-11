@@ -45,7 +45,7 @@ __str__()
 *Returns a human-readable string representation of the object
 *Used for creating user-friendly output and for displaying the object as a string
 
-__repr__()
+__repr__()   ---> representation(TR- temsil)
 *Returns an unambiguous(TR- tam, acik) string representation of the object
 *Used for debugging and development purposes to get the complete information of an object
 
