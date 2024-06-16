@@ -63,6 +63,7 @@ def sum_multi(*args):       # !! Remember that type of *args is tuple!
     
     print(f"Sum of the numbers: {sum1(args)} \nMultiplication of numbers: {multi(args)}")
     # If you Ctrl+Click on args on line 64, you will notice that these args comes from *args on line 55.
+    # Which means args on line 64 symbolize a tuple parameter. 
 
 sum_multi(1,2,3,4,5,6,7,8,9)
 
